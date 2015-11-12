@@ -1,0 +1,122 @@
+body{
+	font-family: Arial, Verdana, sans-serif;
+}
+p{
+	padding: 10px;
+	line-height: 1.5em;
+}
+
+button{
+	margin: 10px auto;
+	display: block;
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	background-color: #248AA5;
+	border-radius: 50%;
+	border: 0.15em solid #AFDAF1;
+}
+
+button:hover, button:focus{
+	background-color: #21678D;
+}
+
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.btns{
+	float: left;
+	width: 15%;
+	text-align: center;
+}
+
+.textos{
+	float: left;
+	width: 75%;	
+	margin: 2%;
+
+}
+
+h4{
+	margin: 5px;
+	color:  #21678d;
+	padding-bottom: 10px;
+	border-bottom: .2em solid #21678d;
+}
+
+
+
+.info{
+	display: none;
+	background: #ddd;
+	height:  100%;
+	padding: 10px;
+	border-radius: 20px;
+	border: .2em solid #afdaf1;
+}
+
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+
+
+@media (min-width: 200px) { 
+
+	.container{
+	width: 300px;
+	margin: 0 auto;
+	}
+
+	.btns{
+	float: left;
+	width: 100%;
+	text-align: center;
+	}
+
+	.textos{
+	float: left;
+	width: 100%;	
+	}	
+
+	button{
+	width: 100%;
+	border-radius: 25px;
+	}
+
+}
+
+
+
+@media (min-width: 768px) {
+
+	.container{
+	width: 600px;
+	margin: 0 auto;
+	}
+
+	.btns{
+	float: left;
+	width: 20%;
+	text-align: center;}
+
+	.textos{
+	float: left;
+	width: 70%;	
+
+	}	
+
+	button{
+	width: 70px;
+	border-radius: 50%;
+	}
+
+}
